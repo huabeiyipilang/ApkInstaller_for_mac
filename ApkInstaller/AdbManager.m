@@ -88,10 +88,16 @@ static AdbManager* sInstance = nil;
     
     NSMutableArray* devices = [[NSMutableArray alloc] init];
     int count = lines.count;
+    BOOL startDeviceLine = NO;
     for(int i = 1; i < count; i++){
-        Device* device = [[Device alloc] init];
         NSString* line = [lines objectAtIndex:i];
+        if(!startDeviceLine){
+            startDeviceLine = [line hasPrefix:@"List of devices attached"];
+            continue;
+        }
+        
         if(line != nil && line.length > 0){
+            Device* device = [[Device alloc] init];
             device.id = [[line componentsSeparatedByString:@"	"] objectAtIndex:0];
             [devices addObject:device];
         }
