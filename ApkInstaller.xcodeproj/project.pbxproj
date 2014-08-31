@@ -20,6 +20,7 @@
 		C3233F6119A5F5EA00F6EC53 /* ApkInstallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3233F6019A5F5EA00F6EC53 /* ApkInstallerTests.m */; };
 		C361FEC019A8E20C0096FDD4 /* AdbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C361FEBF19A8E20C0096FDD4 /* AdbManager.m */; };
 		C365442019ADE32C0043C4C0 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = C365441F19ADE32C0043C4C0 /* Device.m */; };
+		C381472B19AF4BEC00BFC414 /* adb in Resources */ = {isa = PBXBuildFile; fileRef = C381472A19AF4BEC00BFC414 /* adb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C361FEBF19A8E20C0096FDD4 /* AdbManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdbManager.m; sourceTree = "<group>"; };
 		C365441E19ADE32C0043C4C0 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
 		C365441F19ADE32C0043C4C0 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		C381472A19AF4BEC00BFC414 /* adb */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = adb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		C3233F2A19A5F5E900F6EC53 = {
 			isa = PBXGroup;
 			children = (
+				C381472C19AF4BF900BFC414 /* bin */,
 				C3233F3C19A5F5E900F6EC53 /* ApkInstaller */,
 				C3233F5A19A5F5EA00F6EC53 /* ApkInstallerTests */,
 				C3233F3519A5F5E900F6EC53 /* Frameworks */,
@@ -164,6 +167,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C381472C19AF4BF900BFC414 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				C381472A19AF4BEC00BFC414 /* adb */,
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -241,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C381472B19AF4BEC00BFC414 /* adb in Resources */,
 				C3233F4119A5F5E900F6EC53 /* InfoPlist.strings in Resources */,
 				C3233F4F19A5F5EA00F6EC53 /* Images.xcassets in Resources */,
 				C3233F4719A5F5E900F6EC53 /* Credits.rtf in Resources */,

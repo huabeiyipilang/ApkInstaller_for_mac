@@ -21,7 +21,7 @@ static AdbManager* sInstance = nil;
 + (AdbManager*) getInstance{
     if (sInstance == nil) {
         sInstance = [[AdbManager alloc] init];
-        [sInstance setAdbPath:@"/Users/carl/android/adt/sdk/platform-tools/adb"];
+        sInstance.adbPath = [[NSBundle mainBundle] pathForResource:@"adb" ofType:@""];
     }
     return sInstance;
 }

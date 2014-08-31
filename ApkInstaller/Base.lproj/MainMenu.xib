@@ -15,6 +15,8 @@
             <connections>
                 <outlet property="apkPathView" destination="hKb-Eq-rWQ" id="P3j-x0-31a"/>
                 <outlet property="deviceListView" destination="T6I-Mq-mqo" id="GYu-ob-d9t"/>
+                <outlet property="freshDeviceButton" destination="dA1-Hu-fGM" id="c70-DX-J3o"/>
+                <outlet property="installButton" destination="Jj1-cJ-16q" id="2op-rA-sIg"/>
                 <outlet property="outputView" destination="5yI-hM-aww" id="dAW-ID-s7u"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
@@ -705,17 +707,17 @@
                         <rect key="frame" x="20" y="20" width="420" height="144"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <clipView key="contentView" ambiguous="YES" misplaced="YES" id="IQV-at-d1T">
-                            <rect key="frame" x="1" y="1" width="418" height="142"/>
+                            <rect key="frame" x="1" y="1" width="403" height="142"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <textView ambiguous="YES" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="5yI-hM-aww">
-                                    <rect key="frame" x="0.0" y="0.0" width="418" height="142"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="403" height="142"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <size key="minSize" width="418" height="142"/>
+                                    <size key="minSize" width="403" height="142"/>
                                     <size key="maxSize" width="463" height="10000000"/>
                                     <color key="insertionPointColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    <size key="minSize" width="418" height="142"/>
+                                    <size key="minSize" width="403" height="142"/>
                                     <size key="maxSize" width="463" height="10000000"/>
                                 </textView>
                             </subviews>
@@ -726,7 +728,7 @@
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                         <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="icT-EB-rzq">
-                            <rect key="frame" x="403" y="1" width="16" height="142"/>
+                            <rect key="frame" x="404" y="1" width="15" height="142"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                     </scrollView>

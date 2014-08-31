@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5745F594-7E48-408E-855B-3E84F101099C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ApkInstaller</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3A056C04-ED19-4AE9-8F92-2F313A03309B</key>
+		<string>https://github.com/huabeiyipilang/ApkInstaller_for_mac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ApkInstaller.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3A056C04-ED19-4AE9-8F92-2F313A03309B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huabeiyipilang/ApkInstaller_for_mac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3A056C04-ED19-4AE9-8F92-2F313A03309B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3A056C04-ED19-4AE9-8F92-2F313A03309B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ApkInstaller</string>
+		</dict>
+	</array>
+</dict>
+</plist>
